@@ -8,11 +8,10 @@ start:
     ;; color text mode 80x25
     mov ah, 0xb8
     mov es, ax
-    mov al, 0x03
+    mov ax, 0x0003
     int 0x10
     ;; clean screen
     xor di, di
-    cbw
     mov cx, 80*25
     rep stosw
     ;; Print memory 512 bytes 
