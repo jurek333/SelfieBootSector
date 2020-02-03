@@ -5,4 +5,4 @@ This small bootable assembly program prints itself in color text mode (80x25). T
 
 ![screen of running program][snapshot]
 
-[snapshot]: /assets/running.png "Runnign Selfie Boot Sector"
+[snapshot]: /assets/running.PNG "Runnign Selfie Boot Sector"
